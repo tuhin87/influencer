@@ -1,0 +1,44 @@
+/* =======Responsive Styles======= */
+/* ////Small Mobile devices////// */
+@media screen and (max-width:576px) {
+   
+    nav{
+        flex-direction: column;
+        font-size: 1rem;
+        align-items: center;
+        padding: 20px; 
+        text-align: center; 
+      
+    }    
+    nav > ul {
+        flex-direction: column;
+        gap: 5px;
+         
+    }  
+    .banner {
+        flex-direction: column;
+        justify-content: center;
+        margin: 20px;
+       
+    }
+   
+
+.main-title {
+    font-size: 2rem;
+    margin:5px 10px;
+    
+}
+.title-description{
+    font-size: 0.5rem;
+}
+.btn-primary{
+    border-radius: 20px;
+    font-size: 0.5rem;
+}
+.sponsors{
+    flex-direction: column;
+    justify-content: center;
+}
+}
+
+
